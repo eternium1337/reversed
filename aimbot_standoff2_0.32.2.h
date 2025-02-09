@@ -1,5 +1,8 @@
 t.me/eternium_hacks2
 Standoff2 0.32.2
+
+Totally terrible code, which is used in many cheats
+    
 void *(get_bipedmap)(void*); // il2cpp + 0x27049F0
 void AIMBOT()
 {
