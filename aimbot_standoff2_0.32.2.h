@@ -6,10 +6,10 @@ Totally terrible code, which is used in many cheats
 void *(get_bipedmap)(void*); // il2cpp + 0x27049F0
 void AIMBOT()
 {
-    void *v0 = *(void*)((uint64_t)il2cppstartaddr + 0x5139E30 + 0x20 + 0xB8 + 0x70);
+    void *v0 = *(void**)((*(uintptr_t*)((*(uintptr_t*)(*(uintptr_t*)il2cppstartaddr + 0x5139E30) + 0x20) + 0xB8) + 0x70);
     if (v0)
     {
-        void *v2 = *(void*)((uint64_t)il2cppstartaddr + 0x5139E30 + 0x20 + 0xB8);
+        void *v2 = *(void**)((*(uintptr_t*)(*(uintptr_t*)il2cppstartaddr + 0x5139E30) + 0x20) + 0xB8);
         if (v2)
         {
             while (1)
